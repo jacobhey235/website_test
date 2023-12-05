@@ -13,7 +13,7 @@
 <body>
     <header id = "top">
         <img src="dict-pic.png" alt="dictionary">
-        <input id="toggle" type="checkbox"></input>
+        <input id="toggle" type="checkbox">
         <label for="toggle" class="hamburger">
             <div class="top-bun"></div>
             <div class="meat"></div>
@@ -50,10 +50,11 @@
           <div class="intro-div">
             <div class="intro-text">
               <h2>С нашей платформой это легко и удобно</h2>
-              <p>Изучение иностранных языков открывает множество возможностей и приносит значительную пользу на разных уровнях жизни человека</p>
+              <p>Наш сайт предоставляет большое количество упражнений, видеуроков и другой полезной информации для ускорения Вашей учёбы!</p>
             </div>
           </div>
         </section>
+        <script src="intro-script.js"></script>
         <h2 id="countries">Знание языков откроет Вам доступ во многие страны мира!</h2>
         <section>
             <div class="container">
@@ -112,33 +113,36 @@
                   </div>
             </div>
         </section>
-        <section id="subscr">
-            <h2 id="subscription">Планы подписки</h2>
-            <div class="cards-container">
-                <div class="cardbox">
-                    <span></span>
-                    <div class="card-content">
-                        <h2>Бесплатный план</h2>
-                        <p>При использовании базового бесплатного плана Вам будут доступны основные функции платформы</p>
-                        <a href="#">Узнать больше</a>
+        <section class="hero-section">
+            <div class="card-grid">
+                <a class="card" href="#">
+                    <div class="card__background" id="card0"></div>
+                    <div class="card__content">
+                        <p class="card__category">Бесплатный план</p>
+                        <h3 class="card__heading" id="first-card">В базовом плане доступны лишь основные функции</h3>
                     </div>
-                </div>
-                <div class="cardbox">
-                    <span></span>
-                    <div class="card-content">
-                        <h2>Средний план</h2>
-                        <p>В отличие от базового плана, в любительский план включены обучающие видеоуроки</p>
-                        <a href="#">Узнать больше</a>
+                </a>
+                <a class="card" href="#">
+                    <div class="card__background" id="card1"></div>
+                    <div class="card__content">
+                        <p class="card__category">Средний план</p>
+                        <h3 class="card__heading" id="second-card">Средний план открывает доступ к премиум упраженениям</h3>
                     </div>
-                </div>
-                <div class="cardbox">
-                    <span></span>
-                    <div class="card-content">
-                        <h2>Pro план</h2>
-                        <p>На высшем уровне подписки обучающийся получает доступ к индвидуальным консультациям</p>
-                        <a href="#">Узнать больше</a>
+                </a>
+                <a class="card" href="#">
+                    <div class="card__background" id="card2"></div>
+                    <div class="card__content">
+                        <p class="card__category">Про план</p>
+                        <h3 class="card__heading" id="third-card">Про план открывает доступ к премиум видеолекциям</h3>
                     </div>
-                </div>
+                </a>
+                <a class="card" href="#">
+                    <div class="card__background" id="card3"></div>
+                    <div class="card__content">
+                        <p class="card__category">Ультимейт план</p>
+                        <h3 class="card__heading" id="fourth-card">Ультимейт план включает в себя индивидуальные уроки</h3>
+                    </div>
+                </a>
             </div>
         </section>
     </main>
