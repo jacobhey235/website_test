@@ -27,7 +27,7 @@ nav a:active{
     color:blue;
 }
 nav a:visited{
-    color:gray;
+    color: rgb(128, 128, 128);
 }
 .menu{
     padding: 10px;
@@ -970,6 +970,10 @@ i img{
       right:0;
       position:relative;
       margin:0 auto;
+    }
+    .cards-container .cardbox:hover .card-content {
+        left: -15px;
+        padding: 50px 40px;
     }
 }
 @media(max-width: 768px){
