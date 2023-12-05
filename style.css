@@ -36,8 +36,8 @@ nav a:visited{
     text-align:center;
     font-family: 'Comfortaa', sans-serif;
     position:sticky;
-    margin:0px auto;
-    top: 0px;
+    margin:0 auto;
+    top: 0;
     z-index:7;
 }
 header img{
@@ -802,7 +802,6 @@ section{
 .footer-col ul li a{
 	font-size: 16px;
 	text-transform: capitalize;
-	color: #ffffff;
 	text-decoration: none;
 	font-weight: 300;
 	color: #bbbbbb;
@@ -866,7 +865,7 @@ i img{
 
   #bell-button{
     background: none;
-    border:0px;
+    border:0;
   }
 
   @keyframes swingBody {
@@ -978,7 +977,7 @@ i img{
         margin-bottom: 30px;
     }
     #intro1 .intro-text{
-      right:0%;
+      right:0;
       position:relative;
       margin:0 auto;
     }
