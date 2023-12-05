@@ -11,6 +11,7 @@ main{
     color:#EEEEEE;
 }
 body{
+    background-color:#24262b;
     overflow-x: hidden;
 }
 address{
@@ -69,13 +70,15 @@ header img{
 }
 
 .intro-text{
-  align-content:center;
-  height:90vh;
-  width:60vw;
-  font-size:38px;
-  padding:10px;
-  text-shadow: 2px 2px 2px black;
-  border-radius:10px;
+    align-content:center;
+    height:90vh;
+    width:60vw;
+    font-size:38px;
+    padding:10px;
+    border-radius:10px;
+    /*mix-blend-mode:difference;*/
+    font-family:'Comfortaa',sans-serif;
+    text-shadow:4px 4px 2px black;
 }
 
 label,
