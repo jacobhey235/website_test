@@ -1,0 +1,121 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    height:100vh;
+    background: radial-gradient(ellipse at top, #e66465, transparent),
+    radial-gradient(ellipse at bottom, #4d9f0c, transparent);
+    font-family:'Comfortaa',sans-serif;
+}
+
+#card-section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height:100vh;
+}
+
+.sub-button{
+    padding:10px;
+    font-family:'Comfortaa',sans-serif;
+    font-size:22px;
+    width:15vw;
+    font-weight:bold;
+    background-color:#9D76C1;
+    border-color:#E5CFF7;
+    border-radius:10px;
+    transition:0.5s;
+}
+
+.sub-button:hover{
+    background-color:#713ABE;
+    color:white;
+    text-shadow:1px 1px 2px white;
+}
+
+#card{
+    height:40vh;
+    width:35vw;
+    line-height:2em;
+    padding:25px;
+    border-radius:35px;
+    margin-bottom:10vh;
+    background: linear-gradient(#3081D0,#6DB9EF);
+}
+
+#card-num{
+    padding:5px;
+    width:95%;
+    font-size:20px;
+    font-family:'Comfortaa',sans-serif;
+    border-radius:10px;
+    border:none;
+}
+
+#hname, #thru{
+    margin-top:15px;
+}
+
+#holder-name{
+    padding:5px;
+    width:50%;
+    font-size:20px;
+    font-family:'Comfortaa',sans-serif;
+    border-radius:10px;
+    border:none;
+}
+
+#valid-date, #cvc{
+    padding:5px;
+    width:15%;
+    font-size:20px;
+    font-family:'Comfortaa',sans-serif;
+    border-radius:10px;
+    border:none;
+}
+#cvc{
+    position:relative;
+    left:65%;
+}
+#cvc-code{
+    position:relative;
+    left:68%;
+}
+#wrongdate{
+    color:red;
+    font-size:26px;
+    margin-top:10px;
+}
+
+@media screen and (max-width:1080px){
+    #card{
+        height: 20vh;
+        width: 85vw;
+        margin-bottom:2vh;
+    }
+    label{
+        font-size:32px;
+    }
+    #hname, #thru{
+        margin-top:25px;
+    }
+    #card-num, #holder-name, #valid-date, #cvc{
+        font-size:36px;
+    }
+    .sub-button{
+        font-size:48px;
+        width:40vw;
+    }
+    #wrongdate{
+        padding-top:30px;
+        height:15vh;
+        font-size:48px;
+    }
+    #cvc-code{
+        position:relative;
+        left:60%;
+    }
+}
