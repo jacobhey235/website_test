@@ -39,14 +39,29 @@ h1{
     border-color:antiquewhite;
     padding:15px;
     line-height:2.5em;
+    text-shadow: 2px 2px 2px black;
+}
+
+#exr0{
+    background:linear-gradient(#E3651D,#BED754);
+}
+
+#exr1{
+    background:linear-gradient(#BB9CC0,#7B66FF);
+}
+
+#exr2{
+    background:linear-gradient(#776B5D,#B0A695);
 }
 
 #exr3{
     border-bottom-width:4px;
+    background:linear-gradient(#A2C579,#D2DE32);
 }
 
 #answers{
     margin-top:20px;
+    background:linear-gradient(#B0578D,#D988B9);
 }
 
 .ans{
