@@ -76,7 +76,6 @@ header img{
     font-size:38px;
     padding:10px;
     border-radius:10px;
-    /*mix-blend-mode:difference;*/
     font-family:'Comfortaa',sans-serif;
     text-shadow:4px 4px 2px black;
 }
@@ -858,86 +857,6 @@ section{
     }
 }
 
-.bottom-of-page{
-    font-family:'Comfortaa',sans-serif;
-}
-.fcontainer{
-	max-width: 1170px;
-	margin:auto;
-}
-.row{
-	display: flex;
-	flex-wrap: wrap;
-}
-.ful{
-	list-style: none;
-}
-.footer{
-    align-items:stretch;
-	background-color: #24262b;
-    padding: 50px 0;
-}
-.footer-col{
-   width: 20%;
-   padding: 0 15px;
-}
-.footer-col h4{
-	font-size: 18px;
-	color: #ffffff;
-	text-transform: capitalize;
-	margin-bottom: 35px;
-	font-weight: 500;
-	position: relative;
-}
-.footer-col h4::before{
-	content: '';
-	position: absolute;
-	left:0;
-	bottom: -10px;
-	background-color: #e91e63;
-	height: 2px;
-	box-sizing: border-box;
-	width: 50px;
-}
-.footer-col ul li:not(:last-child){
-	margin-bottom: 10px;
-}
-.footer-col ul li a{
-	font-size: 16px;
-	text-transform: capitalize;
-	text-decoration: none;
-	font-weight: 300;
-	color: #bbbbbb;
-	display: block;
-	transition: all 0.3s ease;
-}
-.footer-col ul li a:hover{
-	color: #ffffff;
-	padding-left: 8px;
-}
-.footer-col .social-links a{
-	display: inline-block;
-	height: 40px;
-	width: 40px;
-	background-color: rgba(255,255,255,0.2);
-	margin:0 10px 10px 0;
-	text-align: center;
-	line-height: 40px;
-	border-radius: 50%;
-	color: #ffffff;
-	transition: all 0.5s ease;
-}
-.footer-col .social-links a:hover{
-	color: #24262b;
-	background-color: #ffffff;
-}
-
-i img{
-    height:30px;
-    width:auto;
-    padding-top:5px;
-}
-
 .notification {
     position: fixed;
     top: 0.5rem;
@@ -1079,13 +998,12 @@ i img{
         width: 40%;
         margin-bottom: 30px;
     }
-    #intro0{
+    #intro0, #intro1{
         background-position-y:0;
         background-size:cover;
     }
-    #intro1{
-        background-position-y:0;
-        background-size:cover;
+    .intro-text{
+        text-shadow:2px 2px 2px black;
     }
 }
 @media(max-width: 768px){
@@ -1095,14 +1013,9 @@ i img{
     #intro0, #intro1{
       height:30vh;
     }
-    #intro0 .intro-text{
-      font-size:2vh;
-      width:87vw;
-      height:25vh;
-    }
-    #intro1 .intro-text{
-      font-size:2vh;
-      width:87vw;
-      height:25vh;
+    .intro-text{
+        font-size:2vh;
+        width:87vw;
+        height:25vh;
     }
 }
