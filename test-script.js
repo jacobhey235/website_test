@@ -7,7 +7,8 @@ const but = document.querySelector("#finalbutton");
 
 but.addEventListener("click", function(){
     let points = 0;
-    if(ans0.value.toLowerCase() === "do you play" || ans0.value.toLowerCase() === "do/play" || ans0.value.toLowerCase() === "do play"){
+    if(ans0.value.toLowerCase() === "do you play" || ans0.value.toLowerCase() === "do/play"
+        || ans0.value.toLowerCase() === "do play"){
         points++;
     }
     if(ans1.value.toLowerCase() === "are"){
