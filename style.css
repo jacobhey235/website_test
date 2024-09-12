@@ -47,7 +47,7 @@ nav a:visited{
     background-color:#EEEEEE;
     text-align:center;
     font-family: 'Comfortaa', sans-serif;
-    position:sticky;
+    position:absolute;
     margin:0 auto;
     top: 0;
     z-index:7;
